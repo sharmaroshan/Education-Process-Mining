@@ -1,0 +1,38 @@
+Grades data
+=================
+
+The grades data contain two Excel files:
+
+-Final grades obtained by the final exam of the course.
+
+-Intermediate grades obtained from the evaluation of students' assignments per session (exercises). For details about the content of exercises, see 'exercises_info.txt'.
+
+
+Description of grades data:
+
+Final grades: 
+=================
+
+- The grades are given per student Id. 
+
+- The final grades can be found in 'final_grades.xlsx'. The exam was held in two times (in two sheets) and some students took the exam two times (some Ids are repeated in both sheets) we provide you with both grades (in two separate sheets). In both times, the exams addressed the same concepts but with different details.
+
+- Some students who attended the course did not take the final exam, therefore, some Ids are missing in final grades.
+
+- The questions of the final exam addressed the concepts of sessions of the course. So, we provide the grades per question based on their reference to the sessions topics in addition to the total final grade. The column names indicate ES # of session.# of exercise (the total points dedicated to exercise).
+
+Example: ES 1.1 			
+	   (2 points)	
+This question addresses the concepts of the first session of the course.
+
+_ The content of final exam can be found in 'final_exam.pdf'.
+
+Suggestion: each exercise can refer to the concepts of one or several sessions. Please see the content of the final exam in 'final_exam.pdf'.
+
+
+Intermediate grades: 
+=================
+
+The grades given to the students’ assignments from session 2 to 6. Please note that there is no grade for Session 1. The students were required to work during each laboratory session and submit their work afterwards. The intermediate grades were given after reviewing their works.
+
+Please note that the students were free to discuss and ask for help during the sessions in order to complete their assignments.

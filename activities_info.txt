@@ -1,0 +1,117 @@
+Activity Selection 
+=================
+
+The details about the activities and their meanings are as follows:
+
+The priority to find keywords and assign activity names is based on the order in 'activities.txt'. For example, we looked for all the keywords of our interest relevant to the course and educational activities of the students and if nothing is found, we assigned "Other".
+
+
+Abbreviation of activities:
+=================
+
+Es: Exercise
+#: Number
+Deeds: Digital Electronics Education and Design Suite
+Diagram: Simulation Timing Diagram
+FSM: Finite State Machine Simulator
+
+===============================================================================
+
+
+Description of activities:
+=================
+
+Study_Es_# of session_# of exercise 
+
+It indicates that a student is studying / viewing the content of a specific exercise (e.g. Study_Es_6_1). To know more about the content of exercises, see 'exercise_info.txt'.
+
+=================
+
+Deeds_Es_# of session_# of exercise 
+
+It indicates that the student is working on a specific exercise inside the Deeds simulator (Digital Circuit Simulator) (e.g. Deeds_Es_6_1). To get more familiar with the simulator and its components, see 'README.txt'.
+
+=================
+
+Deeds_Es
+
+This shows when the student is on Deeds simulator but it is not clear what exercise he is working on. 
+
+Suggestion: As we consider the 'exercise' feature (the third feature) from the moment the student study the content of an exercise to the moment he changes to another exercise, this can be estimated for assigning the number of exercise to Deeds as well. 
+
+=================
+
+Deeds
+
+It contains other activities related to Deeds, for instance when the students save circuit image or export VHDL. 
+
+=================
+
+TextEditor_Es_# of session_# of exercise 
+
+when the student is writing the results of his work to submit later to the instructor. The students use a text editor (Word, Office, etc.) to answer to the questions and explain the solution they found through Deeds simulator (e.g. TextEditor_Es_6_1). To know more about the structure of exercises in text editor, see 'exercise_info.txt'.
+
+=================
+
+TextEditor_Es
+
+It indicates that the student is working on an exercise in the text editor but it is not clear which exercise it is. This happens due to change of file names by the student, so we cannot recognize automatically which exercise he works on. Again, the suggestion given above on Deeds_Es holds.
+
+=================
+
+TextEditor
+
+It shows that the student is using the text editor but not on exercises, this can contain other activities related to the text editor, for instance when they just open it, etc.
+
+=================
+
+Diagram
+
+When the students use 'Simulation Timing Diagram' to test the timing simulation of the logic networks, while using the Deeds simulator. It also contains these components: "Input Test Sequence" and "Timing Diagram View Manager ToolBar".
+
+
+=================
+
+Properties
+
+Deeds simulator, Simulation Timing diagram, and FSM contain the properties window, which allows to set all the required parameters of the component under construction. For instance, the Properties can contain:  "Switch Input", "Push-Button", "Clock properties", "Output properties", "textbox properties". We label all as 'Properties'.
+
+Suggestion: to understand if 'Properties' refer to Deeds simulator or Simulation Timing diagram, you can look at the previous activity. 
+
+=================
+
+Study_Materials
+
+The student is viewing some materials relevant to the course (provided by the instructor).
+
+=================
+
+FSM_Es_# of session_# of exercise 
+
+When the student is working on a specific exercise on 'Finite State Machine Simulator' (e.g. FSM_Es_6_1).
+
+=================
+
+FSM_Related
+
+When the student is handling the components of Finite State Machine Simulator.
+
+=================
+
+Aulaweb
+ 
+Students are using Aulaweb as a learning management system (based on Moodle) which is used for the course of digital electronics at the University of Genoa. In Aulaweb, the students might access the exercises, download them, upload their work, check the forum news, etc.
+
+=================
+
+Blank
+
+When the title of a visited page is not recorded.
+
+=================
+
+Other
+
+When the student is not viewing any pages described above, then we assigned 'Other' to the activity. This includes, for majority of the cases, the student irrelevant activity to the course (e.g. if the student is on Facebook). 
+
+=================

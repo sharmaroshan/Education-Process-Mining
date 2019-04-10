@@ -1,0 +1,13 @@
+1 session
+2 student_Id
+3 exercise
+4 activity
+5 start_time
+6 end_time
+7 idle_time
+8 mouse_wheel
+9 mouse_wheel_click
+10 mouse_click_left
+11 mouse_click_right
+12 mouse_movement
+13 keystroke

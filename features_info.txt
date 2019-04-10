@@ -1,0 +1,99 @@
+Feature Selection 
+=================
+
+The features selected for this data set come from pre-processing of data collected through a logging program. 
+
+Due to ethical reasons and to ensure the anonymity of our users, we cannot share the original log files, instead, we share the data transformed and cleaned in an appropriate format.
+
+The original logs contain the logging data of client system per approximately a second, while the features are calculated in order to be allocated to a particular activity. 
+
+The features are selected and presented in a suitable format for Process Mining. In this sense, the data is presented per session, per student, and per exercise. Each CSV file belongs to a specific session and a specific student (named by the student Id). Each file contains several exercises of that session presented in 'exercise' feature. Each 'exercise' contains activities, which start-time, end-time, and other features are allocated to that.
+
+Process Mining is a process management technique that allows to extract valuable knowledge from the event logs. In Process Mining, normally events / activities are linked together in a process instance or case. The potential cases in our data set are: session, student_Id, and exercise.
+
+======================================================================================================
+
+
+Here is the list of features with more details:
+=================
+
+session
+
+It shows the number of laboratory session from 1 to 6.
+
+=================
+
+student_Id
+
+It shows the Id of student from 1 to 115.
+
+=================
+
+exercise
+
+It shows the Id of the exercise the student is working on. Each session contains 4 to 6 exercises, shown as 'Es_# of the session_# of the exercise' (e.g. Es_1_2: exercise 2 of session 1).
+'Es' with no number means the student has not started the exercise yet.
+
+=================
+
+activity
+
+The activities are labeled based on the title of web pages that are on focus / in the view of the student. To ensure anonymity, we did not publish the exact name of visited pages by the students thus renamed and augmented the pages into 'activity' names. To read about the details of activity labels, see 'activities_info.txt'.
+
+=================
+
+start_time
+
+It shows the start date and time of a specific activity with the format: dd.mm.yyyy hh:mm:ss
+
+=================
+
+end_time
+
+It shows the end date and time of a specific activity with the format: dd.mm.yyyy hh:mm:ss
+
+=================
+
+idle_time
+
+It shows the duration of idle time between the start and end time of an activity in milliseconds.
+
+=================
+
+mouse_wheel
+
+It shows the amount of mouse wheel during an activity.
+
+=================
+
+mouse_wheel_click
+
+It shows the number of mouse wheel clicks during an activity.
+
+=================
+
+
+mouse_click_left
+
+It shows the number of mouse left clicks during an activity.
+
+=================
+
+mouse_click_right
+
+It shows the number of mouse right clicks during an activity.
+
+=================
+
+mouse_movement
+
+It shows the distance covered by the mouse movements during an activity.
+
+=================
+
+keystroke
+
+It shows the number of keystrokes during an activity.
+
+=================
+

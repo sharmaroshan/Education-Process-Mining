@@ -1,0 +1,46 @@
+
+The content of exercises for the laboratory sessions can be retrieved from:
+
+http://www.esng.dibe.unige.it/deeds/LearningMaterials/IndexByTopic.htm
+
+To compare the content of the exercise with exercise feature values, please consider the code assigned to it on the website. Each code contains a zip file containing the files to be used in a text editor as well as the format to be used in Deeds simulator:
+
+
+		
+Es_1_1 = "001002"
+Es_1_2 = "005030"
+Es_1_3 = "005040"
+Es_1_4 = "005050"
+
+Es_2_1 = "015090"
+Es_2_2 = "015095"
+Es_2_3 = "015065"
+Es_2_4 = "015100"
+Es_2_5 = "015070"
+Es_2_6 = "015080"
+
+Es_3_1 = "020045"
+Es_3_2 = "020120"
+Es_3_3 = "020055"
+Es_3_4 = "025130"
+
+Es_4_1 = "030140"
+Es_4_2 = "030144"
+Es_4_3 = "030160"
+Es_4_4 = "030164"
+Es_4_5 = "035220"
+
+Es_5_1 = "030180"
+Es_5_2 = "035200"
+Es_5_3 = "035210"
+Es_5_4 = "035230"
+
+Es_6_1 = "045270"
+Es_6_2 = "045280"
+Es_6_3 = "045290"
+Es_6_4 = "050300"
+Es_6_5 = "050310"
+Es_6_6 = "050425"
+
+
+
